@@ -36,7 +36,7 @@ def return_string_array(array)
 counter = 0
  
   while array[counter] do
-    print array[counter]
+    puts array[counter]
     counter += 1
   end
 end
