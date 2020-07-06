@@ -8,16 +8,14 @@ count = 0
   end
 end
 
-def loop_message_n_times(message,num)
+def loop_message_n_times(message)
 message = "Hello Moon.\n"
-num = 5
-  while count < num 
+  while count < 5 
     puts message
     count += 1
   end
 message = "Hello Red Balloon.\n"
-num = 10
-  while count < num 
+  while count < 10 
     puts message
     count += 1
   end
