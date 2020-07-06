@@ -9,7 +9,7 @@ count = 0
 end
 
 def loop_message_n_times(message,num)
-message =
+message = "Hello Moon"
 end
 
 def output_array
