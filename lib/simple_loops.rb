@@ -8,8 +8,8 @@ count = 0
   end
 end
 
-def loop_message_n_times()
-  
+def loop_message_n_times(message,num)
+message =
 end
 
 def output_array
