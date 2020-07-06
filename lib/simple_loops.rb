@@ -37,7 +37,7 @@ counter = 0
 new_array = []
  
   while array[counter] do
-    array[counter].to_s
+    new_array << array[counter].to_s
     counter += 1
   end
   new_array
