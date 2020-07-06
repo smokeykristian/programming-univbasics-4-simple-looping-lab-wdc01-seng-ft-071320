@@ -8,15 +8,15 @@ count = 0
   end
 end
 
-def loop_message_n_times(message)
-message = "Hello Moon.\n"
+def loop_message_n_times(message1, message2)
+message1 = "Hello Moon.\n"
   while count < 5 
-    puts message
+    puts message1
     count += 1
   end
-message = "Hello Red Balloon.\n"
+message2 = "Hello Red Balloon.\n"
   while count < 10 
-    puts message
+    puts message2
     count += 1
   end
 end
