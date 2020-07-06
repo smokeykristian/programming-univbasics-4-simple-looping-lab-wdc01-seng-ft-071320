@@ -5,4 +5,7 @@ end
 def loop_message_n_times
 end
 
-def
+def output_array
+end
+
+def 
