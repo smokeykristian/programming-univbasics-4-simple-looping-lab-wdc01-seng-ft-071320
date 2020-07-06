@@ -9,10 +9,13 @@ count = 0
 end
 
 def loop_message_n_times(message,num)
-message = "Hello Moon."
+message = "Hello Moon.\n"
 num = 5
   while count < num 
-  puts message
+    puts message
+    count += 1
+  end
+message =
 end
 
 def output_array
