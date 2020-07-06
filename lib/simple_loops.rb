@@ -10,11 +10,13 @@ end
 
 def loop_message_n_times(message1, message2)
 message1 = "Hello Moon.\n"
+count = 0
   while count < 5 
     puts message1
     count += 1
   end
 message2 = "Hello Red Balloon.\n"
+count = 0
   while count < 10 
     puts message2
     count += 1
